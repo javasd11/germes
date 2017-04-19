@@ -27,6 +27,8 @@ public class City extends AbstractEntity {
 	private String region;
 	/**
 	 * Set of transport stations that is linked to this loyality
+	 * 
+	 *  лучше использовать Set, который не содержит дубликатов
 	 */
 	private Set<Station> stations;
 
